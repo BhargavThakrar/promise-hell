@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BhargavThakrar/promise-hell.git"
+    "url": "git+https://github.com/BhargavThakrar/promises-all.git"
   },
   "keywords": [
     "promise",
@@ -37,7 +37,7 @@
     "mocha": "^3.2.0"
   },
   "bugs": {
-    "url": "https://github.com/BhargavThakrar/promise-hell/issues"
+    "url": "https://github.com/BhargavThakrar/promises-all/issues"
   },
-  "homepage": "https://github.com/BhargavThakrar/promise-hell#readme"
+  "homepage": "https://github.com/BhargavThakrar/promises-all#readme"
 }
