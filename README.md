@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url] [![Known Vulnerabilities][vulnerability-image]][vulnerability-url]
+
 # promises-all
 Track down promise states of all promise functions executing in parallel. Similar to promise.all function, but it rejects the complete promise.all() even if any one of the promise fails, where as promises-all npm will indiviudally return you the states.
 
@@ -52,3 +54,8 @@ function p2() {
 	reject: [ 'p2 rejected' ] 
 }
 ```
+[travis-url]: https://travis-ci.org/BhargavThakrar/promises-all
+[travis-image]: https://travis-ci.org/BhargavThakrar/promises-all.svg?branch=master
+
+[vulnerability-image]: https://snyk.io/test/github/bhargavthakrar/promises-all/badge.svg
+[vulnerability-url]: https://snyk.io/test/github/bhargavthakrar/promises-all
