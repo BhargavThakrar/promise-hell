@@ -5,7 +5,7 @@ Track down promise states of all promise functions executing in parallel. Simila
 
 If you have used promises in your javscript code, then you might know one very good functionality of it, that is promise.all(). Fires multiple promise calls in parallel! Awesome!!
 
-Recently I got stuck wiht this. My requirement was to fire 3 API calls parallely, but don't really care if any one of the api calls fail, unless all of them are failing! Then thats a different story. But, i could not achieve this, because promise.all rejects all the promise even if any on of them rejects.
+Recently I got stuck with this. My requirement was to fire 3 API calls parallely, but don't really care if any one of the api calls fail, unless all of them are failing! Then thats a different story. But, i could not achieve this, because promise.all rejects all the promise even if any on of them rejects.
 
 There are solutions one would suggest that dont reject your indiviudal functions, rather always resolve them and then check once promise.all is done with all promise calls. But then why should I move that logic of checking fail case outside the function which is actually making an API call. Doesnt make sense to me.
 
